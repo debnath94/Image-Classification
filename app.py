@@ -10,7 +10,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('Model.h5')
 
 def main():
     st.title("Satellite Image Classifier")
